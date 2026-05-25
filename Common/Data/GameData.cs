@@ -59,6 +59,7 @@ public static class GameData
     public static Dictionary<uint, FishingFoodExcel> FishingFoodData { get; private set; } = [];
     public static Dictionary<uint, VirCaptureTowerExcel> VirCaptureTowerData { get; private set; } = [];
     public static Dictionary<uint, DreamCardActivityExcel> DreamCardActivityData { get; private set; } = [];
+    public static Dictionary<uint, DlcActivityExcel> DlcActivityData { get; private set; } = [];
 }
 
 public static class GameResourceTemplateId
